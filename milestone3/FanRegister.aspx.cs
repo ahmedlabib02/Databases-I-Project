@@ -91,6 +91,7 @@ namespace milestone3
             }
             else
             {
+                Response.Write("Registration Successful");
                 addFan.Parameters.Add(new SqlParameter("@name", fName));
                 addFan.Parameters.Add(new SqlParameter("@username", fUsername));
                 addFan.Parameters.Add(new SqlParameter("@password", fPassword));
