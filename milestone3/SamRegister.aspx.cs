@@ -21,6 +21,7 @@ namespace milestone3
         {
             String connStr = WebConfigurationManager.ConnectionStrings["Milestone2#1"].ToString();
             SqlConnection conn = new SqlConnection(connStr);
+
             String samName = samNameTxt.Text;
             String samUsername = samUsernameTxt.Text;
             String samPassword = samPasswordTxt.Text;

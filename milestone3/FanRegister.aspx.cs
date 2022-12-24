@@ -20,6 +20,7 @@ namespace milestone3
         {
             String connStr = WebConfigurationManager.ConnectionStrings["Milestone2#1"].ToString();
             SqlConnection conn = new SqlConnection(connStr);
+
             String fName = fanNameTxt.Text;
             String fUsername = fanUsernameTxt.Text;
             String fPassword = fanPassTxt.Text;
