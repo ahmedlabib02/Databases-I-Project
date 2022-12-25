@@ -125,7 +125,7 @@ namespace milestone3
 
 
         protected void fanRegister(object sender, EventArgs e)
-        {
+        {   
             Response.Redirect("FanRegister.aspx");
         }
 
@@ -143,9 +143,7 @@ namespace milestone3
         {
             Response.Redirect("ClubRepRegister.aspx");
         }
-        protected void sysadminRegister(object sender, EventArgs e)
-        {
+        
 
-        }
     }
 }
