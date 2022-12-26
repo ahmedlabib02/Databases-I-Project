@@ -69,18 +69,18 @@ namespace milestone3
                 SqlDataReader assocReader = assoc.ExecuteReader();
                 while (assocReader.Read())
                 {
-                    if (assocReader["username"].ToString() == username) { 
-                    Response.Write("association");
-                    Response.Redirect("Sports_Association.aspx");
+                    if (assocReader["username"].ToString() == username) {
+                        Session["user"] = username;
+                        Response.Redirect("Sports_Association.aspx");
                 }
                 }
                 assocReader.Close();
                 SqlDataReader fanReader = fan.ExecuteReader();
                 while (fanReader.Read())
                 {
-                    if (fanReader["username"].ToString() == username) { 
-                    Response.Write("fan");
-                    Response.Redirect("Fans.aspx");
+                    if (fanReader["username"].ToString() == username) {
+                        Session["user"] = username;
+                        Response.Redirect("Fans.aspx");
                 }
                 }
                 fanReader.Close();
@@ -89,7 +89,7 @@ namespace milestone3
                 {
                     if (crReader["username"].ToString() == username)
                     {
-                        Response.Write("cr");
+                        Session["user"] = username;
                         Response.Redirect("Club_representative.aspx");
                     }
                 }
@@ -99,7 +99,7 @@ namespace milestone3
                 {
                     if (smReader["username"].ToString() == username)
                     {
-                        Response.Write("sm");
+                        Session["user"] = username;
                         Response.Redirect("Stadium_Manager.aspx");
                     }
                 }
@@ -109,12 +109,12 @@ namespace milestone3
                 {
                     if (saReader["username"].ToString() == username)
                     {
-                        Response.Write("sm");
+                        Session["user"] = username;
                         Response.Redirect("System_admin.aspx");
                     }
                 }
                 smReader.Close();
-
+                
 
 
             }
