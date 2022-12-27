@@ -48,6 +48,19 @@
                 </Columns>
             </asp:GridView>
             <br />
+            Send Host Request:<br />
+            <br />
+            Request at Stadium :&nbsp;
+            <asp:DropDownList ID="stadiumDropDown" runat="server" DataSourceID="SqlDataSource1" DataTextField="name" DataValueField="name">
+            </asp:DropDownList>
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:Milestone2#1ConnectionString %>" SelectCommand="SELECT [name] FROM [allStadiums]"></asp:SqlDataSource>
+&nbsp;For Match starting At:&nbsp;&nbsp;
+            <asp:DropDownList ID="upcomingMatchesDropDown" runat="server">
+            </asp:DropDownList>
+            <asp:Button ID="Button2" runat="server" Text="Send Request" OnClick="sendRequest" />
+            <asp:Label ID="requestSentNotification" runat="server" Text=""></asp:Label>
+            <br />
+            <br />
 
         </div>
     </form>
