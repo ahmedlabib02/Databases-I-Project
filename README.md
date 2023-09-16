@@ -4,7 +4,7 @@ This project is the implementation of a web application for the Sports Match Man
 
 ## Table of Contents
 - [Overview](#overview)
-- [Requirements](#requirements)
+- [Functionalities](#requirements)
 - [Getting Started](#getting-started)
 - [User Types and Actions](#user-types-and-actions)
 - [Database Integration](#database-integration)
