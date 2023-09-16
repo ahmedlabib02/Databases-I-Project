@@ -67,3 +67,22 @@ To run the web application locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/ahmedlabib02/Databases-I-Project.git
+   Set up your development environment, ensuring you have the necessary tools and libraries for web development.
+
+2.Configure the web application to connect to your database. Update the database connection settings in the application as needed.
+
+3..Install any dependencies using package manager of your choice (e.g., npm or yarn).
+
+4.Build and run the web application locally.
+
+## Database Integration
+The web application seamlessly integrates with the database developed in previous milestones. Ensure your database is properly set up and configured to support the web application's functionalities.
+
+## Authors
+
+We'd like to thank the following authors for their valuable contributions to this project:
+- [Omar Ashraf](https://github.com/OmarAshraf-02)
+- [Mostafa elKout](https://github.com/Elkott1)
+
+
+
