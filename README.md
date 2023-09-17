@@ -80,9 +80,10 @@ The web application seamlessly integrates with the database developed in previou
 
 ## Authors
 
-We'd like to thank the following authors for their valuable contributions to this project:
+
 - [Omar Ashraf](https://github.com/OmarAshraf-02)
 - [Mostafa elKout](https://github.com/Elkott1)
+- [Ahmed Labib] (https://github.com/ahmedlabib02)
 
 
 
